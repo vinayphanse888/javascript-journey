@@ -1,8 +1,14 @@
 # Projects related to DOM
 
 ## Project link
-[Click here]
+[Click here](https://stackblitz.com/~/github.com/vinayphanse888/javascript-journey)
 
 ## Solution code
 
-### Project 1 – Color Changer 🔥
+## project 1
+
+```javascript
+console.log("vinay")
+
+```
+
