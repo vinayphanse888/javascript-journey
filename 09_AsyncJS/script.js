@@ -14,13 +14,43 @@ axios
 XMLHttpRequest
 */
 
+// setTimeout(function(){
+    
+// },1000)
+
+// fetch
+// axios
+// promises
+// setTimeout
+// setInterval
+
+// then catch 
+// callbacks
+// async await
 
 // async js hai kya ? 
 // js is not asynchronous
 // async ki poori kahaani.
 // single threading and multi threading 
-// callbacks 
+// callbacks -------------> callback humesha ek function hota hhai, ye sirf tab chalta hai jab async code ka completion ho jata hai 
 // promises 
+
+var ans = new Promise((res, rej)=> {
+    if(true){
+        return res();
+    }else {
+        return rej();
+    }
+})
+
+ans
+.then(function(){
+    console.log("resolve hogaya tha");
+})
+.catch(function() {
+    console.log("reject hogaya tha");
+})
+
 // then and catch
 // async await
 // 5 use cases ekdum real world waale
